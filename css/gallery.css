@@ -1,0 +1,10 @@
+.photo {
+    margin: 1rem 1rem 1rem 1rem;
+    border: solid;
+    border-color: lightgrey;
+    border-width: 5px;
+}
+
+.gallery {
+    background: var(--color-5);
+}
