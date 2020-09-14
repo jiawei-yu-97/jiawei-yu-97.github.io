@@ -67,13 +67,29 @@
 
     <section class='content'>
         <h1>Projects</h1>
-        <div>
-            <a href="covid.html">Covid-19 Dashboard</a> is a collection of graphs and tools to keep track of the
-            development of COVID-19 around the globe.
-            <br>
-            Visualizations like interactive tables, line graphs and choropleth maps are included because I find them
-            useful and informative.
-        </div>
+        <section class='flex-display'>
+            <div class='flex-grow project-chunk'>
+                <h3 class='text-center'><a href="covid19-dashboard.html" target="_blank">Covid-19 Dashboard</a></h3>
+                A collection of graphs and tools to keep track of the
+                development of COVID-19 around the globe.
+                <br><br>
+                Visualizations like interactive tables, line graphs and choropleth maps are included because I find them
+                useful and informative.
+            </div>
+
+            <div class='flex-grow project-chunk'>
+                <h3 class='text-center'><a href="airbnb-price-prediction.pdf" target="_blank">Airbnb Price Prediction & Analysis</a></h3>
+                An ML project that predicts the Airbnb listing price 
+                in Toronto, and analyzes which factors have the most impact on pricing. It was completed as part of the course requirement for 
+                <a href='https://uwflow.com/course/stat444' target="_blank">STAT444</a> (Statistical Learning - Function Estimation) at the University of Waterloo.
+                <br><br>
+                The model (gradient boosting) achieved an averaged prediction error of less than $40, and there were some interesting findings regarding 
+                pricing factors (other than the obvious ones like location and size, of course), which can be helpful information for Airbnb hosts and guests.
+                <br><br>
+                The data preprocessing component of this project is particularly useful, as raw data is directly scraped off the web, 
+                and the selection and generation of features requires careful considerations.  
+            </div>
+        </section>
     </section>
 
 </body>

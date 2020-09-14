@@ -22,7 +22,7 @@ body {
     padding-top: 50px;
 }
 
-h1 {
+h1, h2, h3, h4, h5{
     margin-top: 0;
     margin-bottom: 0.5rem;
 }
@@ -79,4 +79,12 @@ h1 {
 
 .top-bottom-margin {
     margin: 1rem 0 1rem 0;
+}
+
+.project-chunk {
+    background-color: var(--color-5);
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border: solid;
+    border-color: var(--color-3);
 }
